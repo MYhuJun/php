@@ -1,0 +1,104 @@
+<div>
+  <table class="table table-hover">
+  <tr>
+      <th>视频名称</th>
+      <th>时长</th>
+      <th>有/无稿</th>
+      <th>翻译</th>
+      <th>校对</th>
+      <th>时间轴</th>
+      <th>发布时间</th>
+      <th>功能区</th>
+  </tr>
+  <tr ng-repeat="item in infos">
+      <td>{{item.title}}</td>
+      <td>{{item.lang}}</td>
+      <td>{{item.manuscript}}</td>
+      <td>{{item.translate}}</td>
+      <td>{{item.collate2}}</td>
+      <td>{{item.time}}</td>
+      <td>{{item.newtime}}</td>
+      <td>
+        <div class="btn-group btn-group-sm" role="group">
+          <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-info" ng-click="updata(item)">修改</button>
+          <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#delcfmModel" ng-click="delete(item.id,$index)">删除</button>
+        </div>
+      </td>
+  </tr>
+</table>
+</div>
+<!--model-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">修改</h4>
+      </div>
+      <div class="modal-body">
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">标题</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" placeholder="标题" ng-model="active.title">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">时长</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" placeholder="时长" ng-model="active.lang">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">有/无搞</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" placeholder="有/无搞" ng-model="active.manuscript">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">翻译</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" placeholder="翻译" ng-model="active.translate">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">校对</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" placeholder="校对" ng-model="active.collate2">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">时间轴</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" placeholder="时间轴" ng-model="active.time">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">发布时间</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" placeholder="发布时间" ng-model="active.newtime">
+        </div>
+      </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal" ng-click="save(active)">保存</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--删除模态框-->
+<div class="modal fade" id="delcfmModel">  
+  <div class="modal-dialog">  
+    <div class="modal-content message_align">  
+      <div class="modal-header">  
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>  
+        <h4 class="modal-title">提示信息</h4>  
+      </div>  
+      <div class="modal-body">  
+        <p>您确认要删除吗？</p>  
+      </div>  
+      <div class="modal-footer">
+         <button type="button" class="btn btn-default" data-dismiss="modal">取消</button> <button type="button" class="btn btn-danger" data-dismiss="modal" ng-click="deleteseve()">确认</button>  
+      </div>  
+    </div><!-- /.modal-content -->  
+  </div><!-- /.modal-dialog -->  
+</div><!-- /.modal -->
+<div class="alert alert-success" ng-show="success"><strong>{{success}}</strong></div>
+<div class="alert alert-danger" ng-show="danger"><strong>{{danger}}</strong></div>  
+<nav>
+  <ul class="pager">
+    <li><a ng-show="pagenum!='1'" ng-click="page('0')">首页</a></li>
+    <li><a ng-show="pagenum!='1'" ng-click="page('-1')">上一页</a></li>
+    <li><span class="pagenum">{{pagenum}}</span></li>
+    <li><a ng-show="infos.length=='10'" ng-click="page('1')">下一页</a></li>
+    <!-- <li><a ng-show="infos.length=='10'" ng-click="page('9')">末页</a></li> -->
+  </ul>
+</nav>

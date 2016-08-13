@@ -1,0 +1,76 @@
+2016-02-29 16:06:24 查询 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 0,10
+2016-02-29 16:06:24 获取全部记录 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 0,10
+2016-02-29 16:06:24 释放结果集
+2016-02-29 16:06:24 完成整个查询任务,所用时间为0.035701990127563
+2016-02-29 16:06:26 查询 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 10,20
+2016-02-29 16:06:26 获取全部记录 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 10,20
+2016-02-29 16:06:26 释放结果集
+2016-02-29 16:06:26 完成整个查询任务,所用时间为0.0016469955444336
+2016-02-29 16:07:30 查询 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 0,10
+2016-02-29 16:07:30 获取全部记录 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 0,10
+2016-02-29 16:07:30 释放结果集
+2016-02-29 16:07:30 完成整个查询任务,所用时间为0.0043621063232422
+2016-02-29 16:07:32 查询 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 10,10
+2016-02-29 16:07:32 获取全部记录 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 10,10
+2016-02-29 16:07:32 释放结果集
+2016-02-29 16:07:32 完成整个查询任务,所用时间为0.0014209747314453
+2016-02-29 16:07:33 查询 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 20,10
+2016-02-29 16:07:33 获取全部记录 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 20,10
+2016-02-29 16:07:33 释放结果集
+2016-02-29 16:07:33 完成整个查询任务,所用时间为0.0019659996032715
+2016-02-29 16:07:40 更新 update t_movie set title = '回家',lang = '150m',manuscript = '无',translate = '初次出手',collate2 = '伍佰22',time = 'sss',title = '回家',lang = '150m',manuscript = '无',translate = '初次出手',collate2 = '伍佰22',time = 'sss' where 1=1 and id=25
+2016-02-29 16:07:40 查询 update t_movie set title = '回家',lang = '150m',manuscript = '无',translate = '初次出手',collate2 = '伍佰22',time = 'sss',title = '回家',lang = '150m',manuscript = '无',translate = '初次出手',collate2 = '伍佰22',time = 'sss' where 1=1 and id=25
+2016-02-29 16:07:40 释放结果集
+2016-02-29 16:07:40 完成整个查询任务,所用时间为0.0012340545654297
+2016-02-29 16:07:42 查询 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 10,10
+2016-02-29 16:07:42 获取全部记录 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 10,10
+2016-02-29 16:07:42 释放结果集
+2016-02-29 16:07:42 完成整个查询任务,所用时间为0.0010881423950195
+2016-02-29 16:07:43 查询 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 20,10
+2016-02-29 16:07:43 获取全部记录 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 20,10
+2016-02-29 16:07:43 释放结果集
+2016-02-29 16:07:43 完成整个查询任务,所用时间为0.0013201236724854
+2016-02-29 16:07:46 删除 delete from t_movie where 1=1 and id=25
+2016-02-29 16:07:46 查询 delete from t_movie where 1=1 and id=25
+2016-02-29 16:07:46 释放结果集
+2016-02-29 16:07:46 完成整个查询任务,所用时间为0.0020380020141602
+2016-02-29 16:07:46 查询 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 20,10
+2016-02-29 16:07:46 获取全部记录 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 20,10
+2016-02-29 16:07:46 释放结果集
+2016-02-29 16:07:46 完成整个查询任务,所用时间为0.0016510486602783
+2016-02-29 16:07:49 查询 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 10,10
+2016-02-29 16:07:49 获取全部记录 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 10,10
+2016-02-29 16:07:49 释放结果集
+2016-02-29 16:07:49 完成整个查询任务,所用时间为0.0019428730010986
+2016-02-29 16:07:53 查询 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 20,10
+2016-02-29 16:07:53 获取全部记录 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 20,10
+2016-02-29 16:07:53 释放结果集
+2016-02-29 16:07:53 完成整个查询任务,所用时间为0.00229811668396
+2016-02-29 16:07:57 更新 update t_movie set title = '回家111',lang = '150m',manuscript = '无',translate = '初次出手',collate2 = '伍佰',time = 'sss',title = '回家111',lang = '150m',manuscript = '无',translate = '初次出手',collate2 = '伍佰',time = 'sss' where 1=1 and id=19
+2016-02-29 16:07:57 查询 update t_movie set title = '回家111',lang = '150m',manuscript = '无',translate = '初次出手',collate2 = '伍佰',time = 'sss',title = '回家111',lang = '150m',manuscript = '无',translate = '初次出手',collate2 = '伍佰',time = 'sss' where 1=1 and id=19
+2016-02-29 16:07:57 释放结果集
+2016-02-29 16:07:57 完成整个查询任务,所用时间为0.0012791156768799
+2016-02-29 16:07:58 查询 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 10,10
+2016-02-29 16:07:58 获取全部记录 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 10,10
+2016-02-29 16:07:58 释放结果集
+2016-02-29 16:07:58 完成整个查询任务,所用时间为0.0020811557769775
+2016-02-29 16:08:00 删除 delete from t_movie where 1=1 and id=18
+2016-02-29 16:08:00 查询 delete from t_movie where 1=1 and id=18
+2016-02-29 16:08:00 释放结果集
+2016-02-29 16:08:00 完成整个查询任务,所用时间为0.0024678707122803
+2016-02-29 16:08:00 查询 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 10,10
+2016-02-29 16:08:00 获取全部记录 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 10,10
+2016-02-29 16:08:00 释放结果集
+2016-02-29 16:08:00 完成整个查询任务,所用时间为0.0017209053039551
+2016-02-29 16:08:03 查询 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 0,10
+2016-02-29 16:08:03 获取全部记录 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 0,10
+2016-02-29 16:08:03 释放结果集
+2016-02-29 16:08:03 完成整个查询任务,所用时间为0.0015699863433838
+2016-02-29 16:08:04 查询 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 10,10
+2016-02-29 16:08:04 获取全部记录 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 10,10
+2016-02-29 16:08:04 释放结果集
+2016-02-29 16:08:04 完成整个查询任务,所用时间为0.0029339790344238
+2016-02-29 16:08:04 查询 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 20,10
+2016-02-29 16:08:04 获取全部记录 select `id`,`title`,`lang`,`manuscript`,`translate`,`collate2`,`time`,`newtime` from t_movie  order by newtime desc limit 20,10
+2016-02-29 16:08:04 释放结果集
+2016-02-29 16:08:04 完成整个查询任务,所用时间为0.0020921230316162
